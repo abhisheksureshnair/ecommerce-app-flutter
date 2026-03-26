@@ -96,4 +96,3 @@ This project is licensed under the ISC License.
 ---
 
 Developed with ❤️ for the future of luxury e-commerce.
-# ecommerce-app-flutter
