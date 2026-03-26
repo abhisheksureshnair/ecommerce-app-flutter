@@ -1,16 +1,16 @@
-# 💎 LuxeFlow E-commerce
+# 💎 Luxentia E-commerce
 
-![LuxeFlow Banner](./media/banner.png)
+![Luxentia Banner](./media/banner.png)
 
 ### *Ethereal Atelier: Curated Luxury. Seamless Style.*
 
-**LuxeFlow** is a premium, high-contrast dark-mode e-commerce application designed for the discerning fashion enthusiast. It offers a seamless, sophisticated shopping experience with a focus on minimalism, speed, and visual excellence.
+**Luxentia** is a premium, high-contrast dark-mode e-commerce application designed for the discerning fashion enthusiast. It offers a seamless, sophisticated shopping experience with a focus on minimalism, speed, and visual excellence.
 
 ---
 
 ## 🌟 Key Features
 
-- **Luxury Onboarding**: A stunning, image-rich 3-page introduction to the LuxeFlow experience.
+- **Luxury Onboarding**: A stunning, image-rich 3-page introduction to the Luxentia experience.
 - **GetX State Management**: High-speed, reactive state management using the GetX ecosystem.
 - **AI Concierge**: An integrated intelligent chatbot to assist users with their luxury fashion needs.
 - **Secure Authentication**: Robust JWT-based login and signup flow with secure token storage.
@@ -42,14 +42,14 @@
 ## 📂 Project Structure
 
 ```bash
-luxeflow_ecommerce/
-├── luxeflow_ecommerce_frontend/   # Flutter Application
+luxentia_ecommerce/
+├── luxentia_ecommerce_frontend/   # Flutter Application
 │   ├── lib/
 │   │   ├── features/              # Feature-based architecture (Auth, Cart, Home, etc.)
 │   │   └── main.dart              # Entry point
 │   ├── assets/                    # Imagery, SVGs, and Localizations
 │   └── pubspec.yaml               # Flutter Dependencies
-├── luxeflow_ecommerce_backend/    # Node.js Express API
+├── luxentia_ecommerce_backend/    # Node.js Express API
 │   ├── src/                       # API Logic, Models, and Controllers
 │   ├── index.js                   # Server Entry Point
 │   └── .env                       # Environment Variables
@@ -67,7 +67,7 @@ luxeflow_ecommerce/
 
 ### 2. Backend Setup
 ```bash
-cd luxeflow_ecommerce_backend
+cd luxentia_ecommerce_backend
 npm install
 # Create a .env file with your PORT, MONGODB_URI, and JWT_SECRET
 node index.js
@@ -75,7 +75,7 @@ node index.js
 
 ### 3. Frontend Setup
 ```bash
-cd luxeflow_ecommerce_frontend
+cd luxentia_ecommerce_frontend
 flutter pub get
 flutter run
 ```
@@ -83,7 +83,7 @@ flutter run
 ---
 
 ## 🎨 Design Philosophy: "Ethereal Atelier"
-LuxeFlow follows a **High-Contrast Dark Mode** aesthetic. The design prioritizes:
+Luxentia follows a **High-Contrast Dark Mode** aesthetic. The design prioritizes:
 - **Depth**: Utilizing glassmorphism and subtle mesh gradients (`mesh_gradient`).
 - **Flow**: Staggered animations and smooth screen transitions.
 - **Clarity**: Minimalist layouts with high-quality fashion imagery.
